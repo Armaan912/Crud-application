@@ -1,0 +1,88 @@
+.customer-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.add-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.customer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.customer-item {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.improvement-text {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.update-button,
+.delete-button,
+.view-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.update-button {
+    background-color: #2196f3;
+}
+
+.update-button:hover {
+    background-color: #0b7dda;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.delete-button:hover {
+    background-color: #da190b;
+}
+
+.view-button {
+    background-color: #ff9800;
+}
+
+.view-button:hover {
+    background-color: #e68a00;
+}
